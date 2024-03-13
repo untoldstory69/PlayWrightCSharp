@@ -1,3 +1,5 @@
+using Microsoft.Playwright;
+
 namespace PlayWrightDemo;
 
 public class Tests
@@ -8,8 +10,35 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public async Task Test1()
     {
-        Assert.Pass();
+        //Playwright >>> it will start downaloding things for us for automation.
+        using var playwright = await Playwright.CreateAsync();
+
+        //create browser instance
+        await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+        {
+            Headless = false
+            
+        }) ;
+
+
+        //create page instance
+        var page = await browser.NewPageAsync();
+
+        await page.GotoAsync("https://demoqa.com/");
+       
+        await page.ClickAsync("text = Book Store Application");
+        await page.ScreenshotAsync(new PageScreenshotOptions
+        {
+            Path = "demoqa.jpg"
+        });
+
+        await page.ClickAsync("id=login");
+
+        await page.FillAsync("#userName", "untoldstory");
+        await page.FillAsync("#password", "Pikachu@123");
+        await page.ClickAsync("id=login");
+
     }
 }
