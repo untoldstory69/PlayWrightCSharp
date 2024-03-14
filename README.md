@@ -19,3 +19,7 @@ go to the command
 
 ### Install required browsers by replacing netX with the actual output folder name, e.g. net8.0:
 		pwsh bin/Debug/netX/playwright.ps1 install
+
+### By default NunitPlayWright will run in headless mode. In order to run in headed mode run it from VS package manager console
+		$env:HEADED="1"
+		dotnet test
