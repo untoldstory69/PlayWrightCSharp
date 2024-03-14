@@ -15,7 +15,8 @@ public class NunitPlayWright : PageTest
     [Test]
     public async Task Login()
     {
-     
+        // Explicit setting time out
+        //Page.SetDefaultTimeout(10000);
 
         await Page.ClickAsync("text = Book Store Application");       
 
