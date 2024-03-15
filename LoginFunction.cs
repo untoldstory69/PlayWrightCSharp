@@ -1,6 +1,7 @@
 ﻿using Microsoft.Playwright.NUnit;
 using PlayWrightDemo.Pages;
 using NUnit.Allure.Core;
+using PlayWrightDemo.Helper;
 
 
 namespace PlayWrightDemo;
@@ -11,6 +12,7 @@ public class LoginFunction : PageTest
     [SetUp]
     public async Task Setup()
     {
+        
         await Page.GotoAsync("https://demoqa.com/");
     }
 
@@ -27,8 +29,17 @@ public class LoginFunction : PageTest
         HomePage homePage = new HomePage(Page);
 
         await homePage.VerifyUserLoggedIn("untoldstory");
+       
 
+    }
 
+    [TearDown]
+    public async Task TearDown()
+    {
+        // take screenshot when test failed
+        string className = this.GetType().Name;
+        ScreenShot screenShot = new ScreenShot(Page);
+        await screenShot.ScreenShotOnFailure(className);
 
     }
 }

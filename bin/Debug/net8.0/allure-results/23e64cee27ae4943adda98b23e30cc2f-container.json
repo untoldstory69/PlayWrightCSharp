@@ -1,0 +1,12 @@
+{
+  "uuid": "4615433e-c3bd-4886-b80e-4df393f57e06",
+  "name": "PlayWrightDemo.Tests",
+  "children": [
+    "3c98e753-383e-4fcf-9c12-5aa2704d2f6b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710478467739,
+  "stop": 1710478483666
+}

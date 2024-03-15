@@ -74,3 +74,6 @@ go to the command
 			allure serve
 				>>> creates the same report as allure generate but puts it into a temporary directory and starts a local web server configured to show this directory's contents. The command then automatically opens the main page of the report in a web browser.
 					Use this command if you need to view the report  and do not need to save it.
+
+### Screenshot for failed test
+	A helper class ScreenShot.cs is added which will capture the screenshot when test fails and add that screenshot to the allure report. Call that function in TearDown.

@@ -1,0 +1,57 @@
+{
+  "uuid": "89c2c507-b6ab-4de5-85b7-37d9906a7b29",
+  "historyId": "9393f0e2a119606596c6c95ca81a03b6",
+  "testCaseId": "dac6d697bd01c76389f7151f14f1b08a",
+  "fullName": "PlayWrightDemo:PlayWrightDemo.LoginFunction.LoginFunc()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "vmAVD-H-P-13"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PlayWrightDemo"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginFunc"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginFunction"
+    }
+  ],
+  "links": [],
+  "name": "LoginFunc",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginFunc"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "44ffdd93-4535-4cb8-8cc4-d3110697e38e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710478290125,
+  "stop": 1710478301782
+}

@@ -1,0 +1,57 @@
+{
+  "uuid": "12f515f4-6038-4797-b4cf-f2e87442d454",
+  "historyId": "2b9ff92de2a1e0e34debd3c669ab0a5f",
+  "testCaseId": "cb1d290d4d851d2d07435680ec94f24d",
+  "fullName": "PlayWrightDemo:PlayWrightDemo.Tests.Test1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "vmAVD-H-P-13"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PlayWrightDemo"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test1"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "e87a46b8-e43f-410c-84b9-16ca21051c14-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710478340414,
+  "stop": 1710478357504
+}

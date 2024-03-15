@@ -1,5 +1,7 @@
 using Microsoft.Playwright;
+using Microsoft.TeamFoundation.WorkItemTracking.Process.WebApi.Models;
 using NUnit.Allure.Core;
+using PlayWrightDemo.Helper;
 
 namespace PlayWrightDemo;
 [AllureNUnit]
@@ -30,10 +32,7 @@ public class Tests
         await page.GotoAsync("https://demoqa.com/");
        
         await page.ClickAsync("text = Book Store Application");
-        await page.ScreenshotAsync(new PageScreenshotOptions
-        {
-            Path = "demoqa.jpg"
-        });
+       
 
         await page.ClickAsync("id=login");
 
@@ -42,4 +41,5 @@ public class Tests
         await page.ClickAsync("id=login");
 
     }
+  
 }
