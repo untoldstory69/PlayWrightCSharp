@@ -1,0 +1,65 @@
+{
+  "uuid": "b018982f-6b8e-4642-9298-47370d1fe74b",
+  "historyId": "0177892720f1b7eed1debd7978bdbc86",
+  "testCaseId": "d87d589fe39361ceedec7315e58beb97",
+  "fullName": "PlayWrightDemo:PlayWrightDemo.LoginFunction.InvalidLoginFunc()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "vmAVD-H-P-13"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PlayWrightDemo"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvalidLoginFunc"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginFunction"
+    },
+    {
+      "name": "feature",
+      "value": "Invalid Login"
+    },
+    {
+      "name": "suite",
+      "value": "Login Function"
+    }
+  ],
+  "links": [],
+  "name": "InvalidLoginFunc",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "InvalidLoginFunc"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "42e92369-28df-414a-bd2a-6106326dcdd1-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710484433595,
+  "stop": 1710484440920
+}

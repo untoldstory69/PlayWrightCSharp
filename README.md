@@ -79,3 +79,6 @@ go to the command
 
 ### Screenshot for failed test
 	A helper class ScreenShot.cs is added which will capture the screenshot when test fails and add that screenshot to the allure report. Call that function in TearDown.
+
+### Env Varaible in allure report
+	Explictly add environment.properties file under allure-results directory.
