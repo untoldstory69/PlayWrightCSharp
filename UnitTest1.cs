@@ -1,7 +1,8 @@
 using Microsoft.Playwright;
+using NUnit.Allure.Core;
 
 namespace PlayWrightDemo;
-
+[AllureNUnit]
 public class Tests
 {
     [SetUp]

@@ -1,0 +1,12 @@
+{
+  "uuid": "1be8fff1-fa58-4e59-b68f-0d8e221d57da",
+  "name": "PlayWrightDemo.NunitPlayWright",
+  "children": [
+    "2c89e45c-f48b-49aa-a520-2bddc4c2ff74"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710460714152,
+  "stop": 1710460725678
+}

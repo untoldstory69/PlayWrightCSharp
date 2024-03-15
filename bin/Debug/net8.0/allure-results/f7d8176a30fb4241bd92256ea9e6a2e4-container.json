@@ -1,0 +1,12 @@
+{
+  "uuid": "b17a32dd-b2e8-4bf0-85ab-787ef7982f19",
+  "name": "PlayWrightDemo.LoginFunction.LoginFunc",
+  "children": [
+    "2351bfce-9c41-4489-a678-1bfd68c295ac"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710460701738,
+  "stop": 1710460714134
+}

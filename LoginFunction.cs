@@ -1,10 +1,11 @@
-﻿using Microsoft.Playwright;
-using Microsoft.Playwright.NUnit;
+﻿using Microsoft.Playwright.NUnit;
 using PlayWrightDemo.Pages;
+using NUnit.Allure.Core;
+
 
 namespace PlayWrightDemo;
 
-// inherit pagetest from micorsoft, so we don't neet to create playwrigh, browser and page instance
+[AllureNUnit]
 public class LoginFunction : PageTest
 {
     [SetUp]
