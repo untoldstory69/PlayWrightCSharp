@@ -62,10 +62,12 @@ go to the command
 				dotnet test
 					>This will save necessary data into allure-results or other directory, according to the allure.directory setting. If the directory already exists, the new files will be added to the existing ones, so that a future report will be based on them all.
 			
-			Enter following command in the command prompt, go to the directory PlayWrightDemo\bin\Debug\net8.0
+			Enter following command in the command prompt, go to the directory PlayWrightDemo\bin\Debug\net8.0 by default
 					allure generate --clean
 						>>> allure generate processes the test results and saves an HTML report into the allure-report directory
 						>>> NOTE: generate report from the bin/debug/netX folder otherwise it will generate report but with error
+
+							>>> the default directory for allure-result can be changes using allureConfig.json file and updating Directory accordingly
 			
 			Open the result by directly opening the html file from allure-report folder or using the command line
 				allure open PlayWrightC#\PlayWrightDemo\bin\Debug\net8.0\allure-report

@@ -1,8 +1,8 @@
 {
-  "uuid": "3c98e753-383e-4fcf-9c12-5aa2704d2f6b",
-  "historyId": "2b9ff92de2a1e0e34debd3c669ab0a5f",
-  "testCaseId": "cb1d290d4d851d2d07435680ec94f24d",
-  "fullName": "PlayWrightDemo:PlayWrightDemo.Tests.Test1()",
+  "uuid": "4f4ec1d5-6a0c-446b-94de-9fe80d7b4ba3",
+  "historyId": "9393f0e2a119606596c6c95ca81a03b6",
+  "testCaseId": "dac6d697bd01c76389f7151f14f1b08a",
+  "fullName": "PlayWrightDemo:PlayWrightDemo.LoginFunction.LoginFunc()",
   "labels": [
     {
       "name": "thread",
@@ -26,32 +26,40 @@
     },
     {
       "name": "testMethod",
-      "value": "Test1"
+      "value": "LoginFunc"
     },
     {
       "name": "testClass",
-      "value": "Tests"
+      "value": "LoginFunction"
+    },
+    {
+      "name": "feature",
+      "value": "Valid and successful Login"
+    },
+    {
+      "name": "suite",
+      "value": "Login Function"
     }
   ],
   "links": [],
-  "name": "Test1",
+  "name": "LoginFunc",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "Test1"
+    "message": "LoginFunc"
   },
   "stage": "finished",
   "steps": [],
   "attachments": [
     {
       "name": "Console Output",
-      "source": "73b27e25-fdfb-4e70-9361-44ad102b022d-attachment.txt",
+      "source": "89f68f04-c3f4-4c52-a443-f898278ac4e3-attachment.txt",
       "type": "text/plain"
     }
   ],
   "parameters": [],
-  "start": 1710478467739,
-  "stop": 1710478483661
+  "start": 1710482712534,
+  "stop": 1710482722701
 }

@@ -1,8 +1,8 @@
 {
-  "uuid": "e05f876d-62d9-4579-abe7-acd9ee3df9e7",
-  "historyId": "9393f0e2a119606596c6c95ca81a03b6",
-  "testCaseId": "dac6d697bd01c76389f7151f14f1b08a",
-  "fullName": "PlayWrightDemo:PlayWrightDemo.LoginFunction.LoginFunc()",
+  "uuid": "7f70899c-3af7-4276-a036-9ea382328e6a",
+  "historyId": "0177892720f1b7eed1debd7978bdbc86",
+  "testCaseId": "d87d589fe39361ceedec7315e58beb97",
+  "fullName": "PlayWrightDemo:PlayWrightDemo.LoginFunction.InvalidLoginFunc()",
   "labels": [
     {
       "name": "thread",
@@ -26,32 +26,40 @@
     },
     {
       "name": "testMethod",
-      "value": "LoginFunc"
+      "value": "InvalidLoginFunc"
     },
     {
       "name": "testClass",
       "value": "LoginFunction"
+    },
+    {
+      "name": "feature",
+      "value": "Invalid Login"
+    },
+    {
+      "name": "suite",
+      "value": "Login Function"
     }
   ],
   "links": [],
-  "name": "LoginFunc",
+  "name": "InvalidLoginFunc",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "LoginFunc"
+    "message": "InvalidLoginFunc"
   },
   "stage": "finished",
   "steps": [],
   "attachments": [
     {
       "name": "Console Output",
-      "source": "078bf101-6660-42f2-b0b9-51968fba4f8e-attachment.txt",
+      "source": "8d2c36cd-3896-49d7-bd55-ca3c6ee3832c-attachment.txt",
       "type": "text/plain"
     }
   ],
   "parameters": [],
-  "start": 1710478441819,
-  "stop": 1710478453278
+  "start": 1710482701614,
+  "stop": 1710482712499
 }
